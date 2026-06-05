@@ -9,7 +9,7 @@ const net = require('node:net');
 const LISTEN_PORT = parseInt(process.env.LISTEN_PORT, 10) || 3000;
 const LISTEN_HOST = process.env.LISTEN_HOST || '0.0.0.0';
 const TARGET_HOST = process.env.TARGET_HOST || '127.0.0.1';
-const TARGET_PORT = parseInt(process.env.TARGET_PORT, 10) || 57436;
+const TARGET_PORT = parseInt(process.env.TARGET_PORT, 10) || 8080;
 
 /**
  * Инициализация TCP-сервера.
